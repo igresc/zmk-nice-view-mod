@@ -232,7 +232,7 @@ const lv_img_dsc_t mountain = {
 #define LV_ATTRIBUTE_IMG_THE_WITCHER_MEDALLION_PIXEL-ART
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_THE_WITCHER_MEDALLION_PIXEL-ART uint8_t the_witcher_medallion_pixel-art_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_THE_WITCHER_MEDALLION_PIXEL_ART uint8_t the_witcher_medallion_pixel_art_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -310,12 +310,12 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_THE_WITCH
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t the_witcher_medallion_pixel-art = {
+const lv_img_dsc_t the_witcher_medallion_pixel_art = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1224,
-  .data = the_witcher_medallion_pixel-art_map,
+  .data = the_witcher_medallion_pixel_art_map,
 };
